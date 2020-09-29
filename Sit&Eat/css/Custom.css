@@ -1,0 +1,373 @@
+header{
+    height: 112px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+}
+.menu{
+    margin-top: 15px;
+}
+
+.MYnav-link{
+    color: rgba(0, 0, 0, 0.9);
+    padding: 8px 16px ;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#sign_in1:hover{
+    color: rgba(0, 0, 0, 0.56);
+}
+
+#sign_in2:hover{
+    color: rgba(0, 0, 0, 0.56);
+}
+
+
+.MYnav-link:hover{
+    color: rgba(0, 0, 0, 0.56);
+    padding: 8px 16px ;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.main_body{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+    top: 150px;
+    z-index: -1;
+
+}
+
+
+
+
+.nav-link{
+    color: black;
+    font-size: 16px;
+}
+
+#Search:active{
+    background-color: #6f42c1;
+    border: 1px solid black;
+}
+
+
+.form-inline{
+    position: relative;
+    top: -20px;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+
+
+.form-control{
+    border: 1px solid rgba(0, 0, 0, 0.19);
+
+}
+
+.btn{
+    color: black;
+    background-color: #fcea2b;
+    position: absolute;
+    display: flex;
+    right: 0px;
+    width: 150px;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+
+}
+
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.19);
+}
+
+
+.btn_popular1{
+    position: relative;
+    top: 8px;
+    left: 200px;
+    border: none;
+    border-radius: 22px;
+    margin-right: 5px;
+    background-color: #7D7D7D;
+    color: white;
+    padding: 4px 20px;
+    font-size: 13px;
+    opacity: 0;
+    /*animation: show 2s;*/
+    /*animation-delay: 1000ms;*/
+}
+
+
+
+
+
+.btn_popular2{
+    margin-right: 5px;
+    position: relative;
+    top: 8px;
+    left: 200px;
+    border: none;
+    border-radius: 22px;
+    background-color: #5F3C3C;
+    color: white;
+    padding: 4px 20px;
+    font-size: 13px;
+    opacity: 0;
+    /*animation: show 2s;*/
+    /*animation-delay: 1000ms;*/
+}
+
+
+.btn_popular3{
+    position: relative;
+    top: 8px;
+    left: 200px;
+    border: none;
+    border-radius: 22px;
+    background-color: #4C6668;
+    color: white;
+    padding: 4px 20px;
+    font-size: 13px;
+    opacity: 0;
+    /*animation: show 2s;*/
+    /*animation-delay: 1000ms;*/
+
+}
+
+@keyframes show {
+
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+
+    }
+}
+
+
+
+
+
+.dark_section{
+    position: absolute;
+    background-color: #8bbafe;
+    width: 100%;
+    height: 1000px;
+    top: 1000px;
+}
+
+.icon_menu{
+    /*left: 300px;*/
+    top: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    /*position: relative;*/
+    margin: 0px 26px;
+    border-radius: 11px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /*opacity: 0;*/
+    /*animation: show 3.5s;*/
+    padding: 0px;
+    padding-top: 5px;
+}
+
+
+.pizza_image{
+    width: auto;
+    height: 90%;
+    animation: show 2s;
+}
+
+.hamburger_image{
+    width: auto;
+    height: 90%;
+    margin-bottom:4px;
+    animation: show 4s;
+}
+
+.Sushi_image{
+    width: auto;
+    height: 67%;
+    margin-bottom:4px;
+    animation: show 6s;
+}
+
+.main_icon{
+    position: relative;
+}
+
+.icon_menu:hover{
+    border: 2px solid rgba(252, 234, 93, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.Carousel{
+    top:50px;
+    border: none;
+    background: #EEEEEE;
+    font-size: 23px;
+    padding: 100px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: grab;
+    position: relative;
+    height: 360px;
+    overflow-wrap: break-word;
+}
+
+.carousel-item {
+    border: 1px solid black;
+    background: #EEEEEE;
+    font-size: 23px;
+    padding: 100px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: grab;
+    position: relative;
+    height: 230px;
+    overflow-wrap: break-word;
+    z-index: 3;
+}
+
+#item_of_carousel {
+    background-color: #F06C6C;
+    /*height: 100px;*/
+    /*width: 200px;*/
+    /*margin: auto;*/
+    /*margin-top: 50px;*/
+    /*border-radius: 54px;*/
+    border: none;
+    /*margin-right: 10px;*/
+    /*margin-left: 100px;*/
+}
+
+#item_of_carousel2{
+    background-color: #756cf0;
+    /*height: 100px;*/
+    /*width: 200px;*/
+    /*margin: auto;*/
+    /*margin-top: 50px;*/
+    /*border-radius: 54px;*/
+    border: none;
+    /*margin-right: 200px;*/
+    /*margin-left: 200px;*/
+}
+
+
+#item_of_carousel3{
+    background-color: #ecf06c;
+    /*height: 100px;*/
+    /*width: 200px;*/
+    /*margin: auto;*/
+    /*margin-top: 50px;*/
+    /*border-radius: 54px;*/
+    border: none;
+    /*margin-right: 200px;*/
+    /*margin-left: 200px;*/
+}
+
+
+#item_of_carousel4{
+    background-color: #f0cb6c;
+    /*height: 100px;*/
+    /*width: 200px;*/
+    /*margin: auto;*/
+    /*margin-top: 50px;*/
+    /*border-radius: 54px;*/
+    border: none;
+    /*margin-right: 200px;*/
+    /*margin-left: 200px;*/
+}
+
+#item_of_carousel5{
+    background-color: #6cf08d;
+    /*height: 100px;*/
+    /*width: 200px;*/
+    /*margin: auto;*/
+    /*margin-top: 50px;*/
+    /*border-radius: 54px;*/
+    border: none;
+    /*margin-right: 200px;*/
+    /*margin-left: 200px;*/
+}
+
+
+#item_of_carousel6{
+    background-color: #f06c77;
+    /*height: 100px;*/
+    /*width: 200px;*/
+    /*margin: auto;*/
+    /*margin-top: 50px;*/
+    /*border-radius: 54px;*/
+    border: none;
+    /*margin-right: 200px;*/
+    /*margin-left: 200px;*/
+}
+
+
+#item_of_carousel7{
+    background-color: #f06cee;
+    /*height: 100px;*/
+    /*width: 200px;*/
+    /*margin: auto;*/
+    /*margin-top: 50px;*/
+    /*border-radius: 54px;*/
+    border: none;
+    /*margin-right: 200px;*/
+    /*margin-left: 200px;*/
+}
+
+/*.carousel-item {*/
+/*    border: 1px solid black;*/
+/*    background: #EEEEEE;*/
+/*    font-size: 23px;*/
+/*    padding: 100px 20px;*/
+/*    text-align: center;*/
+/*    box-sizing: border-box;*/
+/*    cursor: grab;*/
+/*    position: relative;*/
+/*    height: 230px;*/
+/*    overflow-wrap: break-word;*/
+/*}*/
+
+
+#carousel1{
+    position: relative;
+    margin-top: 0px;
+
+}
+
+
+.item_of_slider{
+    height: 330px;
+    width: 650px;
+    border-radius: 60px;
+    box-shadow: rgba(0, 0, 0, 0.33) 1px 5px 25px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#item_of_carousel200{
+    position: relative;
+    background-color: #f06c77;
+    height: 100px;
+    width: 200px;
+    /*margin: auto;*/
+    /*margin-top: 50px;*/
+    /*border-radius: 54px;*/
+    border: none;
+    /*margin-right: 200px;*/
+    /*margin-left: 200px;*/
+}
